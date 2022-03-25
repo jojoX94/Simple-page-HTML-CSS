@@ -1,0 +1,47 @@
+.fa-solid {
+    padding: 28px;
+    background-color: #33B4EB;
+    border-radius: 62px;
+    color: white;
+    font-size: 3rem;
+    border: 2px solid whitesmoke;
+}
+
+.features {
+    background-color: white;
+}
+
+.features > .container {
+    gap: 10px;
+}
+
+
+.feature {
+    padding: 1.875rem 0;
+    max-width: 20rem;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+}
+
+.feature:hover {
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transform: scale(1.1);
+}
+.feature > div {
+    margin-bottom: 1.375rem;
+}
+
+.feature  h3 {
+    margin-bottom: 1.375rem;
+}
+
+.feature  p {
+    padding: 0 1.25rem;
+}
+@media (max-width: 63.9375em) {
+    .features > container {
+        padding: 3rem 0;
+        gap: 30px;
+    }
+}

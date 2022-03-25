@@ -1,0 +1,21 @@
+.heading {
+    background-color: #F9F9F9;
+}
+.heading h1{
+    opacity: 0.9;
+    margin-bottom: 1.25rem;
+    font-weight: lighter;
+}
+.heading .separation {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 1.25rem;
+    background-color: hsl(233.7, 35.8%, 89.6%);;
+}
+
+.heading h2{
+    opacity: 0.8;
+    color: hsl(233, 8%, 62%);
+    text-align: center;
+    font-weight: 100;
+}

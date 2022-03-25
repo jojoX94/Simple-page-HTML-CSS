@@ -1,0 +1,30 @@
+.cta {
+    background-color: #33B4EB;
+}
+
+.cta h2 {
+    color: white;
+    font-weight: 400;
+}
+
+.cta .button {
+    background-color: white;
+    color: #3f3535;
+    font-weight: 500;
+    transition: all 300ms ease-in-out;
+}
+
+.cta .button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 64em) {
+    .cta > .container {
+        flex-direction: column;
+    }
+    .cta h2 {
+        margin-bottom: 0.625rem;
+    }
+}

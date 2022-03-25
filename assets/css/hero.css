@@ -1,0 +1,30 @@
+.hero > img {
+    object-fit: cover;
+    background-size: 100%;
+}
+.hero {
+    background-color: #2B2B2B;
+}
+.hero__content {
+    padding: 20px 0;
+}
+
+.hero__content h3 {
+    color: white;
+}
+@media (max-width: 64em) {
+    .hero__content {
+        flex-direction: column;
+    }
+    .hero__content h3 {
+        margin-bottom: 0.625rem;
+    }
+}
+.hero__content  h3 span{
+    opacity: .7;
+    font-weight: 300;
+}
+
+.hero__text {
+    margin-right: 1.75rem;
+}
